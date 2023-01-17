@@ -5,7 +5,7 @@
 `rm -rf MAX`
 
 
-`git clone https://github.com/R1NKU1100/MAX`
+`git clone --depth=1 https://github.com/R1NKU1100/MAX`
 
 
 
