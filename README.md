@@ -13,4 +13,7 @@
 `cd MAX`
 
 
-`python MAX.py`
+`chmod 777 SEX`
+
+
+`./SEX`
