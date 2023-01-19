@@ -13,7 +13,7 @@
 `cd MAX`
 
 
-`chmod 777 MAX`
+`chmod 777 PRO`
 
 
-`./MAX`
+`./PRO`
