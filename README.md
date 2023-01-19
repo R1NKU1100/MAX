@@ -13,7 +13,7 @@
 `cd MAX`
 
 
-`chmod 777 SEX`
+`chmod 777 MAX`
 
 
-`./SEX`
+`./MAX`
