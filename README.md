@@ -13,7 +13,7 @@
 `cd MAX`
 
 
-`pythin MAX.py`
+`python MAX.py`
 
 
 
