@@ -13,7 +13,7 @@
 `cd MAX`
 
 
-`chmod 777 PRO`
+`pythin MAX.py`
 
 
-`./PRO`
+
