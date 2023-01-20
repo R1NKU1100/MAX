@@ -1,4 +1,4 @@
-import os
+import os,platform,time
 os.system('git pull')
 from os import path,system
 from platform import uname
