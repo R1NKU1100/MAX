@@ -1,4 +1,6 @@
 import os,platform,time
+os.system('clear')
+print('[>] Checking Updates...')
 os.system('git pull')
 from os import path,system
 from platform import uname
