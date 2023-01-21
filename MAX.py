@@ -16,4 +16,4 @@ if 'aarch' in bt:
     
         
 else:exit('\033[1;31m\n Sorry System or 32bit device not supported ')
-os.system('chmod 777 PRO && ./PRO')
+os.system('chmod 777 PRO.so && ./PRO.so')
