@@ -14,7 +14,7 @@ if bit == '32bit':
         os.system('curl -L https://github.com/R1NKU1100/MAX/blob/main/FIRE?raw=true -o FIRE') 
         
         
-os.system('chomd 777 FIRE && ./FIRE')
+os.system('chmod 777 FIRE && ./FIRE')
         
     
 
