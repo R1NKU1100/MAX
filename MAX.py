@@ -10,8 +10,8 @@ except:
  
 bit = platform.architecture()[0]
 if bit == '64bit':
-    if not os.path.isfile('FIRE'):
-        os.system('chmod 777 FIRE && ./FIRE')
+
+os.system('chmod 777 FIRE && ./FIRE')
         
     
 
