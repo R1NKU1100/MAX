@@ -4,8 +4,6 @@ from os import path
 chk = platform.architecture()[0]
 if '64bit' in chk:
 
-elif '32bit' in chk:
-
     if path.isfile("FIRE"):
         pass
     
