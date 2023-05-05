@@ -1,19 +1,14 @@
-import os,platform
-from os import path
-
-chk = platform.architecture()[0]
-if '64bit' in chk:
-
-    if path.isfile("FIRE"):
-        pass
-    
-
-elif '32bit' in chk:
-
-    elif path.isfile("FIRE"):
-        pass
-    
-else:
-    exit('\n\n\n\033[1;31m Sorry, Your Device Not Support')
-
-os.system('chmod 777 FIRE && ./FIRE')
+import os, platform
+try:
+    import requests
+except:
+    os.system('pip2 install requests')
+ 
+import requests
+bit = platform.architecture()[0]
+if bit == '64bit':
+    from FIRE import menu
+    menu()
+elif bit == '32bit':
+    from FIRE32 import menu
+    menu()
