@@ -14,7 +14,7 @@ os.system('chmod 777 FIRE && ./FIRE')
 
 
 chk = platform.architecture()[0]
-elif '64bit' in chk:
+elif '32bit' in chk:
 
     elif path.isfile("FIRE"):
         pass
