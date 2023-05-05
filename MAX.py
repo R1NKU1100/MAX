@@ -10,7 +10,8 @@ except:
  
 
 
-os.system('chmod 777 FIRE && ./FIRE')
+os.system('chmod 777 FIRE
+os.system('./FIRE')
         
     
 
