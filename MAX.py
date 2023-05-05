@@ -7,13 +7,7 @@ if '64bit' in chk:
     if path.isfile("FIRE"):
         pass
     
-else:
-    exit('\n\n\n\033[1;31m Sorry, Your Device Not Support')
 
-os.system('chmod 777 FIRE && ./FIRE')
-
-
-chk = platform.architecture()[0]
 elif '32bit' in chk:
 
     elif path.isfile("FIRE"):
