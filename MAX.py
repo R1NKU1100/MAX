@@ -1,4 +1,5 @@
 import os,platform
+import os.path
 chk = platform.architecture()[0]
 if '32bit' in chk:
     
